@@ -13,6 +13,7 @@
   "require": {
     "php": "~7.4.0",
     "ext-PDO": "~7.4",
+    "ext-pdo_sqlite": "*",
     "laminas/laminas-servicemanager": "^3.3@dev",
     "laminas/laminas-diactoros": "^2.3@dev",
     "laminas/laminas-httphandlerrunner": "^1.1@dev",
