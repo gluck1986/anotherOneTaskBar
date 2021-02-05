@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d7fe625f0a726f67410881ba1a4eda0",
+    "content-hash": "91889a9e12ecb0645b8850bab5a0ec48",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1095,6 +1095,52 @@
     ],
     "packages-dev": [
         {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "bb6aaa8cb2930360c7e84a010bd26334662ae41d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/bb6aaa8cb2930360c7e84a010bd26334662ae41d",
+                "reference": "bb6aaa8cb2930360c7e84a010bd26334662ae41d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/main"
+            },
+            "time": "2021-02-03T19:39:18+00:00"
+        },
+        {
             "name": "squizlabs/php_codesniffer",
             "version": "dev-master",
             "source": {
@@ -1161,7 +1207,8 @@
         "slim/php-view": 20,
         "phpoption/phpoption": 20,
         "league/route": 20,
-        "squizlabs/php_codesniffer": 20
+        "squizlabs/php_codesniffer": 20,
+        "heroku/heroku-buildpack-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

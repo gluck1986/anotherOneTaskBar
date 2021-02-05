@@ -39,6 +39,7 @@
     "cs-fix": "phpcbf"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.0@dev"
+    "squizlabs/php_codesniffer": "^3.0@dev",
+    "heroku/heroku-buildpack-php": "dev-main"
   }
 }
